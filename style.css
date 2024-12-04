@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+.hero-section {
+    background: linear-gradient(135deg, #4a90e2, #50e3c2);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero-section .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.hero-section h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+}
+
+/* Navbar Styles */
+.navbar {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #50e3c2;
+}
+
+/* Section Styles */
+section {
+    padding: 40px 0;
+}
+
+.about-section, .skills-section, .experience-section {
+    background: white;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section {
+    background: #50e3c2;
+    color: white;
+    border-radius: 5px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.contact-section a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+.profile-photo {
+    width: 200px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: for a circular image */
+}
